@@ -6,6 +6,8 @@ Check that git is installed:
 `git --version`
 If git is not installed - `apt-get install git`
 
+
+# git config
 Check git is confgured:
 `git config --list`
 Should show at least a user.name and user.email, otherwise...
@@ -14,6 +16,10 @@ Should show at least a user.name and user.email, otherwise...
 `git config --global user.email john.doe@git.com`
 `git config --global core.editor nano`
 `git config --global init.defaultBranch main`
+
+## Remove a git config entry (unset)
+git config --global --unset user.name
+
 
 # Initialise a Repo
 If the code / folder already exists:
@@ -46,8 +52,8 @@ Enter username
 Enter password
 
 # Resources
-https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
-https://www.howtoforge.com/tutorial/install-git-and-github-on-ubuntu/
-https://docs.github.com/en/get-started/quickstart/set-up-git
-https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls
-https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+[git-scm first time git setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
+[howtoforge - install git and github](https://www.howtoforge.com/tutorial/install-git-and-github-on-ubuntu/)
+[github - get started quickstart]https://docs.github.com/en/get-started/quickstart/set-up-git)
+[github - get started https clone]https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls)
+[github - creating a PAT Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
