@@ -34,13 +34,20 @@ git commit -m "some message"
 # Creata a Repo on GitHub
 Self explanatory
 
+
+# Create a PAT (Personal Access Token)
+On github.com:
+Settings => Developer Settings => Personal access tokens
+
 # Push changes to GitHub (and login)
 `git remote add origin https:github.com/[username]/[repo].git`
 `git push origin [branchname]`
-
+Enter username
+Enter password
 
 # Resources
 https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
 https://www.howtoforge.com/tutorial/install-git-and-github-on-ubuntu/
 https://docs.github.com/en/get-started/quickstart/set-up-git
 https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
