@@ -2,19 +2,19 @@
 How to set up github on Ubuntu
 
 # Setup Git
-Check that git is installed:`<br>
-`git --version``<br>
-If git is not installed - `apt-get install git``<br>
+Check that git is installed:<br>
+`git --version`<br>
+If git is not installed - `apt-get install git`<br>
 
 
 # git config
-Check git is confgured:`<br>
-`git config --list``<br>
-Should show at least a user.name and user.email, otherwise...`<br>
+Check git is confgured:<br>
+`git config --list`<br>
+Should show at least a user.name and user.email, otherwise...<br>
 
-`git config --global user.name "John Doe"``<br>
-`git config --global user.email john.doe@git.com``<br>
-`git config --global core.editor nano``<br>
+`git config --global user.name "John Doe"`<br>
+`git config --global user.email john.doe@git.com`<br>
+`git config --global core.editor nano`<br>
 `git config --global init.defaultBranch main`
 
 ## Remove a git config entry (unset)
@@ -22,17 +22,17 @@ Should show at least a user.name and user.email, otherwise...`<br>
 
 
 # Initialise a Repo
-If the code / folder already exists:`<br>
-cd into the dir`<br>
+If the code / folder already exists:<br>
+cd into the dir<br>
 `git init`
 
-To init a new repo in a new folder`<br>
+To init a new repo in a new folder<br>
 `git init MyRepo`
 
 # Create a readme and add to git
-`touch readme.md``<br>
-`nano readme.md``<br>
-`git add readme.md``<br>
+`touch readme.md`<br>
+`nano readme.md`<br>
+`git add readme.md`<br>
 
 # Commit changes
 `git commit -m "some message"`
@@ -42,12 +42,12 @@ Self explanatory
 
 
 # Create a PAT (Personal Access Token)
-On github.com:`<br>
+On github.com:<br>
 Settings => Developer Settings => Personal access tokens
 
 # Push changes to GitHub (and login)
 `git remote add origin https:github.com/[username]/[repo].git`<br>
-`git push origin [branchname]``<br>
+`git push origin [branchname]`<br>
 Enter username`<br>
 Enter password`<br>
 
