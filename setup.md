@@ -35,7 +35,7 @@ git commit -m "some message"
 Self explanatory
 
 # Push changes to GitHub (and login)
-`git remote add origin https:withub.com/[username]/[repo].git`
+`git remote add origin https:github.com/[username]/[repo].git`
 `git push origin [branchname]`
 
 
