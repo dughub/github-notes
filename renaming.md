@@ -2,9 +2,11 @@
 How to rename branches etc in git
 
 # Rename a Git Branch
+_Note: This will only work after the first commit_
 git branch -m oldname newname
 
 ## Rename Branch 'master' to 'main'
+_Note: This will only work after the first commit_
 git branch -m master main
 git pull --rebase origin main
 git push origin main
